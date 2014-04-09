@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>247.1</string>
+	<string>381</string>
 	<key>AMApplicationVersion</key>
-	<string>2.1.1</string>
+	<string>2.4</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -21,11 +21,15 @@
 					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0</string>
+				<string>2.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict/>
 				<key>AMProvides</key>
@@ -34,7 +38,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -45,14 +49,10 @@
 				<string>Get Selected Finder Items</string>
 				<key>ActionParameters</key>
 				<dict/>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Get_Selected_Finder_Items_2</string>
 				<key>CFBundleVersion</key>
-				<string>2.0</string>
+				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -62,15 +62,17 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
+				<string>AMGetSelectedFinderItemsAction</string>
+				<key>Disabled</key>
+				<false/>
 				<key>InputUUID</key>
-				<string>0F8B0AC2-43C3-41BE-A25B-DED2CFF01D7B</string>
+				<string>F2EC1CCE-D671-41AD-A949-D7260F30CCCC</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>2049C041-99CE-481B-8F75-DD18032337C2</string>
+				<string>8135A178-A2AC-42DC-AC4A-F0A56A80A614</string>
 				<key>UUID</key>
-				<string>7B1878C4-3E87-4F49-B6F7-FD71BC53A3BB</string>
+				<string>C0927D5F-902D-45DA-8EB1-09AB8BC17284</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -94,7 +96,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3</string>
+				<string>1.3.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -154,7 +160,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Add Date or Time to Finder Item Names</string>
+				<string>Rename Finder Items: Add Date or Time</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -164,7 +170,7 @@
 					<key>datePlacement</key>
 					<integer>1</integer>
 					<key>dateSeparator</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>dateToUse</key>
 					<integer>0</integer>
 					<key>defaultName</key>
@@ -202,14 +208,10 @@
 					<key>useLeadingZeros</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -219,7 +221,9 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>RenameFinderItemsClass</string>
+				<string>AMRenameFinderItemsAction</string>
+				<key>Disabled</key>
+				<true/>
 				<key>InputUUID</key>
 				<string>05FF8244-845A-45C4-8F81-48DDD2473692</string>
 				<key>Keywords</key>
@@ -539,14 +543,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>302.000000:442.000000</string>
+				<string>502.500000:455.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -563,7 +567,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3</string>
+				<string>1.3.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -623,7 +631,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Add Date or Time to Finder Item Names</string>
+				<string>Rename Finder Items: Add Date or Time</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -671,14 +679,10 @@
 					<key>useLeadingZeros</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -688,7 +692,9 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>RenameFinderItemsClass</string>
+				<string>AMRenameFinderItemsAction</string>
+				<key>Disabled</key>
+				<true/>
 				<key>InputUUID</key>
 				<string>5983E603-2FD5-4B2F-BE7D-3F6D9E737653</string>
 				<key>Keywords</key>
@@ -1008,11 +1014,185 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>302.000000:231.000000</string>
+				<string>502.500000:413.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>for f in "$@"
+do
+	exiftool -P -q -m "-FileName&lt;CreateDate" -d "%Y-%m-%d_%H%M%S_%%f.%%e" "$f"
+done
+
+exit 0</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>797B9B0D-3556-45BA-B133-4C1C8C09AFD5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>FE7AE62B-0DA5-4ED2-8865-19BE9F86F510</string>
+				<key>UUID</key>
+				<string>B050E322-7769-4075-92B8-85F5462ED624</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>502.500000:371.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1020,19 +1200,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>DFAC9CC9-8D25-4303-9148-E3B109968526</key>
+		<key>87744DAC-4C96-4DD5-86B9-155406567902</key>
 		<dict>
 			<key>from</key>
 			<string>9C11DADA-603A-486A-AA34-E1BDFBE14099 - 9C11DADA-603A-486A-AA34-E1BDFBE14099</string>
 			<key>to</key>
 			<string>51AF7CD6-009F-4E0A-810C-02012144FF2D - 51AF7CD6-009F-4E0A-810C-02012144FF2D</string>
 		</dict>
-		<key>EBE36D8F-B399-47E9-B3AB-7CF11876FFDC</key>
+		<key>8E3E814B-CD05-429B-955F-9F3DF275F04B</key>
 		<dict>
 			<key>from</key>
-			<string>7B1878C4-3E87-4F49-B6F7-FD71BC53A3BB - 7B1878C4-3E87-4F49-B6F7-FD71BC53A3BB</string>
+			<string>C0927D5F-902D-45DA-8EB1-09AB8BC17284 - C0927D5F-902D-45DA-8EB1-09AB8BC17284</string>
 			<key>to</key>
 			<string>9C11DADA-603A-486A-AA34-E1BDFBE14099 - 9C11DADA-603A-486A-AA34-E1BDFBE14099</string>
+		</dict>
+		<key>E5B0AB73-3682-4B61-8883-20CEAF6464A8</key>
+		<dict>
+			<key>from</key>
+			<string>51AF7CD6-009F-4E0A-810C-02012144FF2D - 51AF7CD6-009F-4E0A-810C-02012144FF2D</string>
+			<key>to</key>
+			<string>B050E322-7769-4075-92B8-85F5462ED624 - B050E322-7769-4075-92B8-85F5462ED624</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -1113,6 +1300,8 @@
 		<string>com.apple.Automator.fileSystemObject</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
 	</dict>
